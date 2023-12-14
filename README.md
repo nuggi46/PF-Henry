@@ -50,22 +50,22 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
 <div>
   <ul>
     <li>
-      Monica Molinas: Data Scientist 👩🏻‍🔬
+      Monica Molinas: <b>Data Scientist</b> 👩🏻‍🔬
     </li>
     <li>
-      Alexis Palacio: Data Scientist 👨🏻‍🔬
+      Alexis Palacio: <b>Data Scientist</b> 👨🏻‍🔬
     </li>
     <li>
-      Piero Li: Data Enginner :construction_worker:
+      Piero Li: <b>Data Enginner</b> :construction_worker:
     </li>
     <li>
-      Juan Pablo Espinoza: Data Analyst :chart_with_upwards_trend:
+      Juan Pablo Espinoza: <b>Data Analyst</b> :chart_with_upwards_trend:
     </li>
     <li>
-      Nelly Molina: Data Analyst :chart_with_upwards_trend:
+      Nelly Molina: <b>Data Analyst</b> :chart_with_upwards_trend:
     </li>
     <li>
-      Elí Flores: Data Analyst :chart_with_upwards_trend:
+      Elí Flores: <b>Data Analyst</b> :chart_with_upwards_trend:
     </li>
   </ul>
 </div>
