@@ -34,13 +34,13 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
 
 <div style="display: flex; justify-content: space-between; width: 100%">
     <img src="https://api.iconify.design/vscode-icons:file-type-python.svg" 
-        style="width: 40px"/>
+        style="width: 40px; margin-right:40px"/>
     <img src="https://api.iconify.design/devicon:pandas.svg" 
-        style="width: 40px"/>
+        style="width: 40px; margin-right:40px"/>
     <img src="https://api.iconify.design/devicon:matplotlib.svg" 
-        style="width: 40px"/>
+        style="width: 40px; margin-right:40px"/>
     <img src="https://api.iconify.design/devicon:googlecloud.svg" 
-        style="width: 40px"/>
+        style="width: 40px; margin-right:40px"/>
 </div>
 
 
