@@ -1,4 +1,34 @@
-[Diagrama de Gantt](https://lucid.app/lucidspark/3cb5c4c0-dee3-4f20-aa8b-1d86bae6bbe0/edit?invitationId=inv_6c32f21b-0efb-4471-a583-939fc376e67f&page=0_0#)
+# Proyecto de InnovaAI Analytics
+
+<div align="center">
+  <img src="assets\innovaLogo.jpeg">
+
+  <p align="center">
+    Análisis de datos para restaurantes en EE. UU.
+    <br />
+  </p>
+</div>
+
+## Situación actual
+
+En la era digital actual, las opiniones de los usuarios se han convertido en una fuente de información valiosa para las empresas. Plataformas de reseñas como Yelp y Google Maps permiten a los usuarios compartir sus experiencias sobre diversos negocios, incluyendo restaurantes, hoteles y otros servicios relacionados con el turismo y el ocio. Estas reseñas proporcionan a las empresas una visión directa de cómo los clientes perciben sus locales y servicios, lo que puede ser crucial para la planificación de estrategias y la mejora del servicio.
+
+
+Nuestro cliente, que forma parte de un conglomerado de empresas de restaurantes y afines, ha reconocido el valor de estas reseñas y busca realizar un análisis detallado de las opiniones de los usuarios en Yelp y Google Maps.
+
+
+En resumen, la situación actual presenta una oportunidad emocionante para utilizar la ciencia de datos (IA, ML, Big Data) para extraer información valiosa de las reseñas de los usuarios y ayudar a nuestro cliente a tomar decisiones informadas que pueden mejorar su negocio. Nuestro equipo está listo para enfrentar este desafío y proporcionar soluciones efectivas basadas en nuestros análisis.
+
+## Objetivos
+
+### Objetivo General
+
+
+## Cronograma del proyecto
+
+Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
+
+<a href="https://lucid.app/lucidspark/3cb5c4c0-dee3-4f20-aa8b-1d86bae6bbe0/edit?invitationId=inv_6c32f21b-0efb-4471-a583-939fc376e67f&page=0_0#"><img src="assets\cronograma.png"></a>
 
 
 <b>Florida:</b>
