@@ -1,8 +1,7 @@
 # Proyecto de InnovaAI Analytics
 
-<img src="assets\innovaLogo.jpeg">
-
 <div align="center">
+  <img src="assets\innovaLogo.jpeg">
 
   <p align="center">
     Análisis de datos para restaurantes en EE. UU.
