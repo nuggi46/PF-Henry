@@ -23,22 +23,6 @@ En resumen, la situación actual presenta una oportunidad emocionante para utili
 
 ### Objetivo General
 
-## 🎯 KPI: Aumento del nivel de satisfacción del consumidor
-
-**Objetivo**
-
-Incrementar en al menos 5% el número de reseñas positivas para el proximo año en los locales analizados.
-
-**Formula**
-
-$$
-\mathrm{KPI}=\dfrac{R_{nuevas}^{+} - R_{pasadas}^{+}}{R_{pasadas}^{+}}\cdot100
-$$
-
-**Justificación**
-
-Este indicador mide la variación de la satisfacción del consumidor en un intervalo anual, un valor positivo indica un incremento de la satifacción.
-
 ## 🎯 KPI: Aumento del numero de visitas a los locales
 
 **Objetivo**
@@ -54,6 +38,22 @@ $$
 **Justificación**
 
 Este indicador mide la variación de la captación de nuevos consumidores en intervalo interanual, con el puede medirse el exito de las campañas de marketing.
+
+## 🎯 KPI: Aumento del nivel de satisfacción del consumidor
+
+**Objetivo**
+
+Incrementar en al menos 5% el número de reseñas positivas para el proximo año en los locales analizados.
+
+**Formula**
+
+$$
+\mathrm{KPI}=\dfrac{R_{nuevas}^{+} - R_{pasadas}^{+}}{R_{pasadas}^{+}}\cdot100
+$$
+
+**Justificación**
+
+Este indicador mide la variación de la satisfacción del consumidor en un intervalo anual, un valor positivo indica un incremento de la satifacción.
 
 ## 🎯 KPI: Aumento el rating promedio del negocio.
 
