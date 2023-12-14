@@ -45,6 +45,31 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
         style="width: 40px; margin-right:40px"/>
 </div>
 
+## Colaboradores
+
+<div>
+  <ul>
+    <li>
+      Monica Molinas: Data Scientist 👩🏻‍🔬
+    </li>
+    <li>
+      Alexis Palacio: Data Scientist 👨🏻‍🔬
+    </li>
+    <li>
+      Piero Li: Data Enginner :construction_worker:
+    </li>
+    <li>
+      Juan Pablo Espinoza: Data Analyst :chart_with_upwards_trend:
+    </li>
+    <li>
+      Nelly Molina: Data Analyst :chart_with_upwards_trend:
+    </li>
+    <li>
+      Elí Flores: Data Analyst :chart_with_upwards_trend:
+    </li>
+  </ul>
+</div>
+
 ## Enlaces a datasets
 
 <b>Florida:</b>
