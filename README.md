@@ -30,6 +30,19 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
 
 <a href="https://lucid.app/lucidspark/3cb5c4c0-dee3-4f20-aa8b-1d86bae6bbe0/edit?invitationId=inv_6c32f21b-0efb-4471-a583-939fc376e67f&page=0_0#"><img src="assets\cronograma.png"></a>
 
+## Stack tecnologico
+
+<div style="display: flex; justify-content: space-between; width: 100%">
+    <img src="https://api.iconify.design/vscode-icons:file-type-python.svg" 
+        style="width: 40px; margin-right:40px"/>
+    <img src="https://api.iconify.design/devicon:pandas.svg" 
+        style="width: 40px; margin-right:40px"/>
+    <img src="https://api.iconify.design/devicon:matplotlib.svg" 
+        style="width: 40px; margin-right:40px"/>
+    <img src="https://api.iconify.design/devicon:googlecloud.svg" 
+        style="width: 40px; margin-right:40px"/>
+</div>
+
 
 <b>Florida:</b>
 
