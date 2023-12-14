@@ -32,12 +32,14 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
 
 ## Stack tecnologico
 
-<div style="display: flex; justify-content: space-between; width: 100%">
+<div style="display: flex; justify-content: space-between; flex-wrap:wrap; width: 100%">
     <img src="https://api.iconify.design/vscode-icons:file-type-python.svg" 
         style="width: 40px; margin-right:40px"/>
     <img src="https://api.iconify.design/devicon:pandas.svg" 
         style="width: 40px; margin-right:40px"/>
     <img src="https://api.iconify.design/devicon:matplotlib.svg" 
+        style="width: 40px; margin-right:40px"/>
+    <img src="https://api.iconify.design/logos:seaborn-icon.svg" 
         style="width: 40px; margin-right:40px"/>
     <img src="https://api.iconify.design/devicon:googlecloud.svg" 
         style="width: 40px; margin-right:40px"/>
