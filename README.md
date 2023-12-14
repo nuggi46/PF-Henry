@@ -81,16 +81,7 @@ Incrementar en al menos 2% puntos el rating medio del negocio en un intervalo in
 
 $$
 \mathrm{KPI}
-=
-\dfrac{
-\mathrm{Rating_{actual}}
--
-\mathrm{Rating_{previo}}
-}{
-  \mathrm{Rating_{previo}}
-}
-\cdot
-100
+=\dfrac{\mathrm{Rating_{actual}}-\mathrm{Rating_{previo}}}{\mathrm{Rating_{previo}}}\cdot100
 $$
 
 **Justificación**
