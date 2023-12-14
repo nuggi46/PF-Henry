@@ -126,20 +126,13 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
 
 <b>Florida:</b>
 
-[reviews-Florida](https://drive.google.com/file/d/1-5AFCLJbYRE1r8q0QWu0zdqABiHp8ioq/view?usp=sharing)
+[reviews-Florida](https://drive.google.com/file/d/1-5AFCLJbYRE1r8q0QWu0zdqABiHp8ioq/view?usp=drive_link)
 
-[reviews-token-Florida](https://drive.google.com/file/d/1w2qPs3wvMgQ2wU5cmQj8NbKvOXOq7LRv/view?usp=sharing)
+[reviews-token-Florida](https://drive.google.com/file/d/1w2qPs3wvMgQ2wU5cmQj8NbKvOXOq7LRv/view?usp=drive_link)
 
 
 <b>Pennsylvania:</b>
 
-[reviews-Pennsylvania](https://drive.google.com/file/d/1-5Vj2VEUJWiZhWMW6x6sKrVeaZZmv3WD/view?usp=sharing)
+[reviews-Pennsylvania](https://drive.google.com/file/d/1-5Vj2VEUJWiZhWMW6x6sKrVeaZZmv3WD/view?usp=drive_link)
 
-[reviews-token-Pennsylvania](https://drive.google.com/file/d/128HUtLuHcc_VGBQKlBPjm1twTYx8ckk1/view?usp=sharing)
-
-
-<b>Utah:</b>
-
-[reviews-Utah](https://drive.google.com/file/d/1_C_1bQnJxdftrvz6QVv9HylbdB6rvzil/view?usp=sharing)
-
-[reviews-token-Utah](https://drive.google.com/file/d/1FlAbcVyPDXldOQRYsDaGAJJbTpmG12nl/view?usp=sharing)
+[reviews-token-Pennsylvania](https://drive.google.com/file/d/128HUtLuHcc_VGBQKlBPjm1twTYx8ckk1/view?usp=drive_link)
