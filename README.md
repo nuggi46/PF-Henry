@@ -32,7 +32,7 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
 
 ## Stack tecnologico
 
-<div style="display: flex; justify-content: space-between">
+<div style="display: flex; justify-content: space-between; width: 100%">
     <img src="https://api.iconify.design/vscode-icons:file-type-python.svg" 
         style="width: 40px"/>
     <img src="https://api.iconify.design/devicon:pandas.svg" 
