@@ -32,15 +32,7 @@ Incrementar en al menos 5% el número de reseñas positivas para el proximo año
 **Formula**
 
 $$
-\mathrm{KPI}
-=
-\dfrac{
-  R_{nuevas}^{+} - R_{pasadas}^{+}
-}{
- R_{pasadas}^{+}
-}
-\cdot
-100
+\mathrm{KPI}=\dfrac{R_{nuevas}^{+} - R_{pasadas}^{+}}{R_{pasadas}^{+}}\cdot100
 $$
 
 **Justificación**
@@ -56,15 +48,7 @@ Incrementar en al menos 5% el número de reseñas emitidas por los consumidores 
 **Formula**
 
 $$
-\mathrm{KPI}
-=
-\dfrac{
-  R_{nuevas} - R_{pasadas}
-}{
- R_{pasadas}
-}
-\cdot
-100
+\mathrm{KPI}=\dfrac{R_{nuevas} - R_{pasadas}}{R_{pasadas}}\cdot100
 $$
 
 **Justificación**
