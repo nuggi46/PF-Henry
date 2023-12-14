@@ -93,6 +93,8 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
         style="width: 40px; margin-right:40px"/>
     <img src="https://api.iconify.design/logos:apache-spark.svg" 
         style="width: 40px; margin-right:40px"/>
+    <img src="https://api.iconify.design/simple-icons:polars.svg" 
+        style="width: 40px; margin-right:40px"/>
 </div>
 
 ## Colaboradores
