@@ -115,8 +115,7 @@ $$
 **Formula:**
 
 $$
-\mathrm{KPI}
-=\dfrac{\mathrm{TotalR^{+}_{actual}}}{\mathrm{TotalR_{actual}}}\cdot100
+\mathrm{KPI}=\dfrac{\mathrm{TotalR^{+}_{actual}}}{\mathrm{TotalR_{actual}}}\cdot100
 $$
 
 
