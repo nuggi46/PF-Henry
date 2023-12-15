@@ -22,7 +22,7 @@ Sabias que si uno quisiera visitar todos los restaurantes de Nueva York, se requ
 
 ### Objetivo General
 
-Desarrollar un sistema de recomendación de restaurantes basada en la información proveida por Google Maps y Yelps para Estados Unidos, especificamente para los estados de Pennsylvania y Florida.
+Desarrollar un sistema de recomendación de restaurantes basada en la información proporcionada por Google Maps y Yelps para Estados Unidos, especificamente para los estados de Pennsylvania y Florida.
 
 ### Objetivo Especificos
 
