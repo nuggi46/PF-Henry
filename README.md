@@ -116,7 +116,7 @@ $$
 
 $$
 \mathrm{KPI}
-=\dfrac{\mathrm{TotalR^{+}_{actual_t}}}{\mathrm{TotalR_{actual_t}}}\cdot100
+=\dfrac{\mathrm{TotalR^{+}_{actual}}}{\mathrm{TotalR_{actual}}}\cdot100
 $$
 
 
