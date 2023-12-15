@@ -47,7 +47,7 @@ La interacción de nuestro cliente con la plataforma tendría la siguiente estru
       Inicio de sesión: El cliente inicia sesión en la plataforma utilizando sus credenciales.
     </li>
     <li>
-      Selección de criterio de selección de restaurantes: Si quiere los mejores restaurantes, lugares por descubrir o asegurarse calidad.
+      Selección de criterio de restaurantes: Si quiere los mejores restaurantes, lugares por descubrir o asegurarse calidad.
     </li>
     <li>
       Visualización de resultados: proveerá una opción de 3 lugares para disfrutar el arte de comer.
