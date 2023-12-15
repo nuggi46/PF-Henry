@@ -11,17 +11,63 @@
 
 ## Situación actual
 
-En la era digital actual, las opiniones de los usuarios se han convertido en una fuente de información valiosa para las empresas. Plataformas de reseñas como Yelp y Google Maps permiten a los usuarios compartir sus experiencias sobre diversos negocios, incluyendo restaurantes, hoteles y otros servicios relacionados con el turismo y el ocio. Estas reseñas proporcionan a las empresas una visión directa de cómo los clientes perciben sus locales y servicios, lo que puede ser crucial para la planificación de estrategias y la mejora del servicio.
+En la era digital actual, las opiniones de los usuarios se han convertido en una fuente de información valiosa para todos. Las plataformas de reseñas como Yelp y Google Maps permiten a los usuarios compartir sus experiencias sobre diversos negocios, incluyendo restaurantes, hoteles y otros servicios relacionados con el turismo y el ocio. 
 
+Considerando la situación actual presenta una oportunidad emocionante para utilizar la ciencia de datos (IA, ML, Big Data) para extraer información valiosa de las reseñas de los usuarios y ayudar a los clientes a tomar decisiones basada en datos que mejoren su negocio. Nuestra consultora InnovaAI ha desarrollado una aplicación destinada a todos aquellos que se consideren foodies, instagramer,youtuber o influencers y deseen aumentar su audiencia a través de un sistema de recomendación que les ayuda a seleccionar de forma eficiente a que lugares ir para estar siempre en tendencia.
 
-Nuestro cliente, que forma parte de un conglomerado de empresas de restaurantes y afines, ha reconocido el valor de estas reseñas y busca realizar un análisis detallado de las opiniones de los usuarios en Yelp y Google Maps.
+Sabias que si uno quisiera visitar todos los restaurantes de Nueva York, se requieren 22 años para poder conocerlos todos? O acaso sabias que si quisieras tomar un vino en Mendoza, existen cerca de 640 bodegas? Y ni te digo si queres ir a comer un plato de pasta en Roma, hay alrededor de 4000 opciones de comida. Por lo tanto la oferta es ilimitada pero el tiempo no, y nuestra aplicación ayudará a los foodies a asistir de manera eficiente a los mejores lugares, conocer nuevas oportunidades y mantener siempre la misma calidad de contenido.
 
-
-En resumen, la situación actual presenta una oportunidad emocionante para utilizar la ciencia de datos (IA, ML, Big Data) para extraer información valiosa de las reseñas de los usuarios y ayudar a nuestro cliente a tomar decisiones informadas que pueden mejorar su negocio. Nuestro equipo está listo para enfrentar este desafío y proporcionar soluciones efectivas basadas en nuestros análisis.
 
 ## Objetivos
 
 ### Objetivo General
+
+Desarrollar un sistema de recomendación de restaurantes basada en la información proveida por Google Maps y Yelps para Estados Unidos, especificamente para los estados de Pennsylvania y Florida.
+
+### Objetivo Especificos
+
+<div>
+  <ul>
+    <li>
+      Recomendar restaurantes en tendencia basados en un analisis de sentimientos.
+    <li>
+      Recomendar restaurantes listos para ser descubiertos.
+    <li>
+      Recomendar restaurantes que nunca te van a fallar.
+    </li>
+  </ul>
+</div>
+
+### MPV
+
+La interacción de nuestro  cliente con la plataforma tendría la siguiente estructura:
+<div>
+  <ul>
+    <li>
+      Inicio de sesión: El cliente inicia sesión en la plataforma utilizando sus credenciales.
+    <li>
+      Selección de criterio de selección de restaurantes: Si quiere los mejores restaurantes, lugares por descubrir o asegurarse calidad.
+    <li>
+      Visualización de resultados: proveerá una opción de 3 lugares para disfrutar el arte de comer.
+    </li>
+      Retroalimentación del usuario: El cliente tiene la opción de proporcionar retroalimentación sobre la precisión de la plataforma para evaluar posibles mejores del modelo a futuro.
+    </li>
+  </ul>
+</div>
+
+## Alcance
+
+El proyecto atiende a cuatro puntos fundamentales dentro del desarrollo de la arquitectura: extracción de datos, análisis de datos, visualización y sistema de recomendación.
+
+Se basará especificamente en locales de comida y en los estados de Estados Unidos en los cuales la cantidad de restaurantes, población y afluencia turistica sean las mayores en proporción a la población total.
+
+## Fuera de alcance
+
+**Análisis en Tiempo Real:** Aunque nuestro sistema de análisis de sentimientos y modelo predictivo proporcionará información valiosa, no será capaz de analizar las reseñas en tiempo real. Esto se debe a las limitaciones técnicas y al tiempo necesario para procesar y analizar los datos.
+
+**Integración con Otras Plataformas de Reseñas:** Nuestro enfoque actual se centra en Yelp y Google Maps. La integración con otras plataformas de reseñas podría proporcionar una visión más completa, pero está fuera de nuestro alcance actual.
+Estas limitaciones representan oportunidades para la continuidad y expansión del proyecto en el futuro.
+
 
 ## 🎯 KPI: Aumento del numero de visitas a los locales
 
