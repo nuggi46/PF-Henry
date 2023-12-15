@@ -69,54 +69,58 @@ Se basará especificamente en locales de comida y en los estados de Estados Unid
 Estas limitaciones representan oportunidades para la continuidad y expansión del proyecto en el futuro.
 
 
-## 🎯 KPI: Aumento del numero de visitas a los locales
+## 🎯 KPIs a evaluar:
 
-**Objetivo**
+### 🎯 KPI N°1: Aumento del numero de visitas a los locales
 
-Incrementar en al menos 5% el número de reseñas emitidas por los consumidores para el proximo año en los locales analizados.
+**Objetivo:** Incrementar en al menos 5% el número de reseñas emitidas por los consumidores para el proximo año en los locales analizados.
 
-**Formula**
+**Formula:**
 
 $$
 \mathrm{KPI}=\dfrac{R_{nuevas} - R_{pasadas}}{R_{pasadas}}\cdot100
 $$
 
-**Justificación**
+**Justificación:** Este indicador mide la variación de la captación de nuevos consumidores en intervalo interanual, con el puede medirse el exito de las campañas de marketing.
 
-Este indicador mide la variación de la captación de nuevos consumidores en intervalo interanual, con el puede medirse el exito de las campañas de marketing.
+### 🎯 KPI N°2: Aumento del nivel de satisfacción del consumidor
 
-## 🎯 KPI: Aumento del nivel de satisfacción del consumidor
+**Objetivo:** Incrementar en al menos 5% el número de reseñas positivas para el proximo año en los locales analizados.
 
-**Objetivo**
-
-Incrementar en al menos 5% el número de reseñas positivas para el proximo año en los locales analizados.
-
-**Formula**
+**Formula:**
 
 $$
 \mathrm{KPI}=\dfrac{R_{nuevas}^{+} - R_{pasadas}^{+}}{R_{pasadas}^{+}}\cdot100
 $$
 
-**Justificación**
+**Justificación:** Este indicador mide la variación de la satisfacción del consumidor en un intervalo anual, un valor positivo indica un incremento de la satifacción.
 
-Este indicador mide la variación de la satisfacción del consumidor en un intervalo anual, un valor positivo indica un incremento de la satifacción.
+### 🎯 KPI N°3: Aumento el rating promedio del negocio.
 
-## 🎯 KPI: Aumento el rating promedio del negocio.
+**Objetivo:** Incrementar en al menos 2% puntos el rating medio del negocio en un intervalo interanual.
 
-**Objetivo**
-
-Incrementar en al menos 2% puntos el rating medio del negocio en un intervalo interanual.
-
-**Formula**
+**Formula:**
 
 $$
 \mathrm{KPI}
 =\dfrac{\mathrm{Rating_{actual}}-\mathrm{Rating_{previo}}}{\mathrm{Rating_{previo}}}\cdot100
 $$
 
-**Justificación**
+**Justificación:** Este indicador mide la variación de la popularidad del negocio según sus consumidores, mientras mas alto sea mas alta la probabilidad de obtener nuevos consumidores.
 
-Este indicador mide la variación de la popularidad del negocio según sus consumidores, mientras mas alto sea mas alta la probabilidad de obtener nuevos consumidores.
+### 🎯 KPI N°4: Tendencias de Sentimientos a lo largo del tiempo.
+
+**Objetivo:** Mantener una tendencia positiva en el tiempo basados en el promedio de sentimientos y la desviación estandar.
+
+**Formula:**
+
+$$
+\mathrm{KPI}
+=\dfrac{\mathrm{Total R^{+}_{actual_t}}}{\mathrm{Total R_{actual_t}}}\cdot100
+$$
+
+
+**Justificación:** Este indicador analiza de cómo los sentimientos expresados en las reseñas han cambiado con el tiempo. Identifica patrones y cambios en las percepciones de los clientes a lo largo del tiempo. Si los restaurantes no mantienen una tendencia positiva en el tiempo impacta directamente en la predisposición de las personas a asistir a esos lugares.
 
 ## Cronograma del proyecto
 
