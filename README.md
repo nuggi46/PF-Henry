@@ -69,7 +69,7 @@ Se basará especificamente en locales de comida y en los estados de Estados Unid
 Estas limitaciones representan oportunidades para la continuidad y expansión del proyecto en el futuro.
 
 
-## 🎯 KPIs a evaluar:
+## KPIs a evaluar:
 
 ### 🎯 KPI N°1: Aumento del numero de visitas a los locales
 
