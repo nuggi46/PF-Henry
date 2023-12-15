@@ -40,17 +40,20 @@ Desarrollar un sistema de recomendación de restaurantes basada en la informaci�
 
 ### MPV
 
-La interacción de nuestro  cliente con la plataforma tendría la siguiente estructura:
+La interacción de nuestro cliente con la plataforma tendría la siguiente estructura:
 <div>
   <ul>
     <li>
       Inicio de sesión: El cliente inicia sesión en la plataforma utilizando sus credenciales.
+    </li>
     <li>
       Selección de criterio de selección de restaurantes: Si quiere los mejores restaurantes, lugares por descubrir o asegurarse calidad.
+    </li>
     <li>
       Visualización de resultados: proveerá una opción de 3 lugares para disfrutar el arte de comer.
     </li>
-      Retroalimentación del usuario: El cliente tiene la opción de proporcionar retroalimentación sobre la precisión de la plataforma para evaluar posibles mejores del modelo a futuro.
+    <li>
+      Retroalimentación del usuario: El cliente tiene la opción de proporcionar retroalimentación sobre la precisión de la plataforma para evaluar posibles mejoras del modelo a futuro.
     </li>
   </ul>
 </div>
