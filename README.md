@@ -215,7 +215,7 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
 
 ## Enlaces a datasets
 
-[<b>Florida:</b>](https://console.cloud.google.com/storage/browser/yelp-and-maps-data-lake/reviews-estados/review-Florida?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=true)
+[<b>Florida:</b>](https://console.cloud.google.com/storage/browser/yelp-and-maps-data-processed/Maps/reviews-estados/review-Florida?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=true)
 
 <div align="center">
   <img src="assets/ratings_Florida.png">
@@ -228,9 +228,8 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
 
 <b>Pennsylvania:</b>
 
-[reviews-Pennsylvania](https://drive.google.com/file/d/1-5Vj2VEUJWiZhWMW6x6sKrVeaZZmv3WD/view?usp=sharing)
+[Pennsylvania](https://console.cloud.google.com/storage/browser/yelp-and-maps-data-processed/Maps/reviews-estados/review-Pennsylvania?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=true)
 
-[reviews-token-Pennsylvania](https://drive.google.com/file/d/128HUtLuHcc_VGBQKlBPjm1twTYx8ckk1/view?usp=sharing)
 
 <div align="center">
   <img src="assets/ratings_Pennsylvania.png">
@@ -243,9 +242,7 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
 
 <b>Utah:</b>
 
-[reviews-Utah](https://drive.google.com/file/d/1_C_1bQnJxdftrvz6QVv9HylbdB6rvzil/view?usp=sharing)
-
-[reviews-token-Utah](https://drive.google.com/file/d/1FlAbcVyPDXldOQRYsDaGAJJbTpmG12nl/view?usp=sharing)
+[reviews-Utah](https://console.cloud.google.com/storage/browser/yelp-and-maps-data-processed/Maps/reviews-estados/review-Utah?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=true)
 
 <div align="center">
   <img src="assets/ratings_Utah.png">
