@@ -14,7 +14,7 @@ En la plataforma GCP se utilizó Cloud Storage en donde se establecieron 2 bucke
 
 - `yelp-and-maps-data-processed` Se encuentra toda la data limpia después del ETL completo
 
-![datalake]()
+![datalake](https://github.com/mreliflores/PF-Henry/blob/main/assets/Datalake.png?raw=true)
 
 
 ## Data Warehouse
@@ -26,7 +26,7 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 
 ## Modelo ER
 
-![erinicial]()
+![erinicial](https://github.com/mreliflores/PF-Henry/blob/main/assets/DiagramaER.png?raw=true)
 
 ![erpersonalizado]()
 
@@ -37,7 +37,7 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 
 ## Workflow
 
-![workflow]()
+![workflow](https://github.com/mreliflores/PF-Henry/blob/main/assets/Workflow.png?raw=true)
 
 
 ## MVP Machine Learning
