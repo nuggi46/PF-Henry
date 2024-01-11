@@ -33,6 +33,15 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 
 ## Diccionario de Datos
 
+| Reviews | Descripción |
+| --- | --- |
+| `user_id` | Id de usuario de Google Maps. |
+| `name` | Nombre de usuario de Google Maps. |
+| `time_normalizado` | Fecha y hora de registro de la calificación y/o comentario. |
+| `gmap_id` | Id de localización del establecimiento, presente en tabla metadatos-sitio. |
+| `rating` | Calificación hecha por el usuario. |
+| `text` | Comentario hecho por el usuario. |
+| `review` | Comentario tokenizado, para análisis de Machine Learning. |
 
 
 ## Workflow
