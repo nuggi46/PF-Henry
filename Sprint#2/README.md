@@ -33,6 +33,10 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 
 ## Diccionario de Datos
 
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
 
 
 ## Workflow
