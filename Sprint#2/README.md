@@ -43,9 +43,6 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 | `text` | Comentario hecho por el usuario. |
 | `review` | Comentario tokenizado, para análisis de Machine Learning. |
 
-
-## Diccionario de Datos
-
 ## Metadatos-Sitios 
 
 | Campo | Valor | Descripción | Tipo |
@@ -87,3 +84,5 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 ![MVP](https://github.com/mreliflores/PF-Henry/blob/main/assets/MVP.png?raw=true)
 
 ## MVP Data Analytics
+
+![Reviews_analytics](https://github.com/JuanPa2608/PF-Henry/blob/main/assets/portada_DataAnalytics.jpg)
