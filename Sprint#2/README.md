@@ -31,6 +31,7 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 
 ## Diccionario de Datos
 
+
 ### `review_estado`
 
 | Fila | Descripción |
@@ -67,6 +68,7 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 | **Popular_for** | Público objetivo del restaurante |
 | **Service_options** | Opciones de servicios |
 
+
 ## Workflow
 
 ![workflow](https://github.com/mreliflores/PF-Henry/blob/main/assets/Workflow.png?raw=true)
@@ -79,3 +81,4 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 ## MVP Data Analytics
 
 ![MVP-DA](https://github.com/JuanPa2608/PF-Henry/blob/main/assets/portada_DataAnalytics.jpg?raw=true)
+
