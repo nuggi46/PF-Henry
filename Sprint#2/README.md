@@ -51,6 +51,6 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 
 ## MVP Machine Learning
 
-
+![MVP](https://github.com/mreliflores/PF-Henry/blob/main/assets/MVP.png?raw=true)
 
 ## MVP Data Analytics
