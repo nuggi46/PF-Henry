@@ -44,6 +44,39 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 | `review` | Comentario tokenizado, para análisis de Machine Learning. |
 
 
+## Diccionario de Datos
+
+## Metadatos-Sitios 
+
+| Campo | Valor | Descripción | Tipo |
+| --- | --- | --- | --- |
+| name | San Soo Dang | El nombre del lugar | object |
+| address | "San Soo Dang, 761 S Vermont Ave, Los Angeles, CA 90005" | La dirección del lugar | object |
+| gmap_id | 0x80c2c778e3b73d33:0xbdc58662a4a97d49 | El identificador único de Google Maps para el lugar | object |
+| latitude | 34.0580917 | Las coordenadas geográficas del lugar | float64 |
+| longitude | -118.2921295 | Las coordenadas geográficas del lugar | float64 |
+| category | ["Korean restaurant"] | La categoría del lugar | object |
+| avg_rating | 4.4 | La calificación promedio del lugar basada en las reseñas de los usuarios | float64 |
+| num_of_reviews | 18 | El número total de reseñas que los usuarios han dejado | int64 |
+| price | "$" | El rango de precios del lugar | int64 |
+| hours | [["Thursday","6:30AM–6PM"],["Friday","6:30AM–6PM"],["Saturday","6:30AM–6PM"],["Sunday","7AM–12PM"],["Monday","Closed"],["Tuesday","6:30AM–6PM"],["Wednesday","6:30AM–6PM"]] | El horario de apertura del lugar para cada día de la semana | object |
+| state | "Open • Closes 6PM" | El estado actual del lugar, por ejemplo, si está abierto o cerrado | object |
+| relative_results | ["0x80c2c78249aba68f:0x35bf16ce61be751d","0x80c2c79998f75fff:0xd7ca5c67e96fb778","0x80c2b899146d7507:0xf4162c12c9cf65f8","0x80c2c77f2d419951:0x26285631b21e324c","0x80c2b8add9016015:0x15836f81a963b35f"] | Otros lugares relacionados sugeridos por Google Maps | object |
+| url | "https://www.google.com/maps/place//data=!4m2!3m1!1s0x80c2c778e3b73d33:0xbdc58662a4a97d49?authuser=-1&hl=en&gl=us" | El enlace a la página de Google Maps del lugar | object |
+| Service options | ["Takeout","Dine-in","Delivery"] | Las opciones de servicio disponibles, como para llevar, comer en el lugar o entrega a domicilio | object |
+| Accessibility | ["Wheelchair accessible entrance"] | Las características de accesibilidad del lugar | object |
+| Offerings | ["Comfort food"] | Lo que ofrece el lugar | object |
+| Amenities | ["Good for kids"] | Las comodidades disponibles | object |
+| Atmosphere | ["Casual"] | El ambiente del lugar | object |
+| Payments | ['NFC mobile payments'] | Los métodos de pago aceptados | object |
+| Popular for | ['Dinner', 'Solo dining'] | Para qué es popular el lugar | object |
+| Dining options | ['Lunch', 'Dinner'] | Las opciones de comedor disponibles | object |
+| Crowd | ['Groups'] | El tipo de multitud que frecuenta el lugar | object |
+| Highlights | ['LGBTQ friendly', 'Transgender safespace'] | Los aspectos más destacados del lugar | object |
+| is_food_related | True | Indica si el lugar está relacionado con la comida | object |
+| rating_group | [4, 5) | grupo del rating | float64 |
+
+
 ## Workflow
 
 ![workflow](https://github.com/mreliflores/PF-Henry/blob/main/assets/Workflow.png?raw=true)
