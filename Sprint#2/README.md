@@ -59,9 +59,9 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 | avg_rating | 4.4 | La calificación promedio del lugar basada en las reseñas de los usuarios | float64 |
 | num_of_reviews | 18 | El número total de reseñas que los usuarios han dejado | int64 |
 | price | "$" | El rango de precios del lugar | int64 |
-| hours | [["Thursday","6:30AM–6PM"],["Friday","6:30AM–6PM"],["Saturday","6:30AM–6PM"],["Sunday","7AM–12PM"],["Monday","Closed"],["Tuesday","6:30AM–6PM"],["Wednesday","6:30AM–6PM"]] | El horario de apertura del lugar para cada día de la semana | object |
+| hours | [["Thursday","6:30AM–6PM"]] | El horario de apertura del lugar para cada día de la semana | object |
 | state | "Open • Closes 6PM" | El estado actual del lugar, por ejemplo, si está abierto o cerrado | object |
-| relative_results | ["0x80c2c78249aba68f:0x35bf16ce61be751d","0x80c2c79998f75fff:0xd7ca5c67e96fb778","0x80c2b899146d7507:0xf4162c12c9cf65f8","0x80c2c77f2d419951:0x26285631b21e324c","0x80c2b8add9016015:0x15836f81a963b35f"] | Otros lugares relacionados sugeridos por Google Maps | object |
+| relative_results | ["0x80c2c78249aba68f:0x35bf16ce61be751d"] | Otros lugares relacionados sugeridos por Google Maps | object |
 | url | "https://www.google.com/maps/place//data=!4m2!3m1!1s0x80c2c778e3b73d33:0xbdc58662a4a97d49?authuser=-1&hl=en&gl=us" | El enlace a la página de Google Maps del lugar | object |
 | Service options | ["Takeout","Dine-in","Delivery"] | Las opciones de servicio disponibles, como para llevar, comer en el lugar o entrega a domicilio | object |
 | Accessibility | ["Wheelchair accessible entrance"] | Las características de accesibilidad del lugar | object |
