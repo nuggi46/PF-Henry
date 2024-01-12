@@ -47,26 +47,25 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 
 | Fila | Descripción |
 | --- | --- |
-| **address** | Ubicación del negocio |
-| **avg_rating** |  |
-| **category** |  |
-| **gmap_id** |  |
-| **latitude** |  |
-| **longitude** |  |
-| **name** |  |
-| **num_of_reviews** |  |
-| **Accessibility** |  |
-| **Amenities** |  |
-| **Atmosphere** |  |
-| **Crowd** |  |
-| **Dining_options** |  |
-| **From_the_business** |  |
-| **Highlights** |  |
-| **Offerings** |  |
-| **Payments** |  |
-| **Planning** |  |
-| **Popular_for** |  |
-| **Service_options** |  |
+| **address** | Ubicación del negocio. |
+| **avg_rating** | Promedio de todas las puntuaciones hechas por los usuarios. |
+| **category** | Categorías con las que está registrado el restaurante. |
+| **gmap_id** | Id de localización del establecimiento proporcionado por google maps. |
+| **latitude** | Latitud de la coordenada. |
+| **longitude** | Longitud de la coordenada. |
+| **name** | Nombre del restaurante. |
+| **num_of_reviews** | Cantidad de reseñas hechas por los usuarios. |
+| **Accessibility** | Características de los tipos de acceso al establecimiento. |
+| **Amenities** | Servicios que ofrece el establecimiento. |
+| **Atmosphere** | Tipo de entorno que ofrece el restaurante. |
+| **Crowd** | Tipos de multitudes admitidas |
+| **Dining_options** | Opciones gastronómicas |
+| **Highlights** | Servicios destacados |
+| **Offerings** | Ofertas |
+| **Payments** | Opciones de pago |
+| **Planning** | Opciones de planificación |
+| **Popular_for** | Público objetivo del restaurante |
+| **Service_options** | Opciones de servicios |
 
 ## Workflow
 
