@@ -62,7 +62,7 @@ Para el data warehouse se utilizó BigQuery, el cual recibe los archivos del buc
 | hours | [["Thursday","6:30AM–6PM"]] | El horario de apertura del lugar para cada día de la semana | object |
 | state | "Open • Closes 6PM" | El estado actual del lugar, por ejemplo, si está abierto o cerrado | object |
 | relative_results | ["0x80c2c78249aba68f:0x35bf16ce61be751d"] | Otros lugares relacionados sugeridos por Google Maps | object |
-| url | "https://www.google.com/maps/place//data=!4m2!3m1!1s0x80c2c778e3b73d33:0xbdc58662a4a97d49?authuser=-1&hl=en&gl=us" | El enlace a la página de Google Maps del lugar | object |
+| url | "https://shre.ink/rKZM" | El enlace a la página de Google Maps del lugar | object |
 | Service options | ["Takeout","Dine-in","Delivery"] | Las opciones de servicio disponibles, como para llevar, comer en el lugar o entrega a domicilio | object |
 | Accessibility | ["Wheelchair accessible entrance"] | Las características de accesibilidad del lugar | object |
 | Offerings | ["Comfort food"] | Lo que ofrece el lugar | object |
