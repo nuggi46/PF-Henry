@@ -141,9 +141,7 @@ $$
 
 **Formula:**
 
-$$
-\mathrm{KPI}=\dfrac{TotalR_{actual}^{+}}{TotalR_{actual}}\cdot100
-$$
+$$\mathrm{KPI}=\dfrac{TotalR_{actual}^{+}}{TotalR_{actual}}\cdot100$$
 **Justificación:** Este indicador analiza de cómo los sentimientos expresados en las reseñas han cambiado con el tiempo. Identifica patrones y cambios en las percepciones de los clientes a lo largo del tiempo. Si los restaurantes no mantienen una tendencia positiva en el tiempo impacta directamente en la predisposición de las personas a asistir a esos lugares.
 
 **METODOLOGIA DEL TRABAJO**
