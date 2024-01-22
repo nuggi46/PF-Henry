@@ -197,7 +197,7 @@ Se plantea el siguiente cronograma para cumplir con los objetivos del proyecto
       Alexis Palacio: <b>Data Scientist</b> 👨🏻‍🔬
     </li>
     <li>
-      Piero Li: <b>Data Enginner</b> :construction_worker:
+      Piero Li: <b>Data Enginneer</b> :construction_worker:
     </li>
     <li>
       Juan Pablo Espinoza: <b>Data Analyst</b> :chart_with_upwards_trend:
