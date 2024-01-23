@@ -9,14 +9,14 @@ from streamlit import radio, sidebar, markdown, title, image, checkbox, selectbo
 
 
 
-ruta1 = "df_merged.parquet"
+ruta1 = "df_resto_user_final_2.parquet"
 tabla_parquet1 = pq.read_table(ruta1)
 df_restaurante = tabla_parquet1.to_pandas()
 
 df_florida = df_restaurante[df_restaurante['ubicacion'] == 'Florida']
 df_pennsylvania = df_restaurante[df_restaurante['ubicacion'] == 'Pennsylvania']
 
-ruta2 = "df_resto_user.parquet"
+ruta2 = "df_resto_user_2.parquet"
 tabla_parquet2 = pq.read_table(ruta2)
 df_resto_user = tabla_parquet2.to_pandas()
 
@@ -60,24 +60,26 @@ user_similarity_df = pd.DataFrame(user_similarity, index=user_resto_matrix.index
 
 
 def recommend_restaurants(df_restaurante, highdf, category=None, trend=None, location=None, city=None):
+    # Copiamos el df original
     df_filtered = df_restaurante.copy()
 
-    # Filtramos por categoría
+    # Aplicamos filtros
     if category:
         df_filtered = df_filtered[df_filtered[category] == 1]
 
-    # Filtramos por tendencia
     if trend is not None:
-        if trend.lower() == 'positive':
-            df_filtered = df_filtered[df_filtered['sentimiento_etiqueta'] == 1]
-        elif trend.lower() == 'negative':
-            df_filtered = df_filtered[df_filtered['sentimiento_etiqueta'] == 0]
+        sentiment_filter = 1 if trend.lower() == 'positive' else 0
+        df_filtered = df_filtered[df_filtered['sentimiento_etiqueta'] == sentiment_filter]
 
-    # Filtramos por ubicación o ciudad
     if location:
         df_filtered = df_filtered[df_filtered['ubicacion'] == location]
-    elif city:
+
+    if city:
         df_filtered = df_filtered[df_filtered['city'] == city]
+
+    # Verificamos la coincidencia de ubicación y ciudad
+    if location and city and df_filtered.empty:
+        return "No hay recomendaciones para los datos ingresados, por favor verifique e intente nuevamente."
 
     # Ordenamos por sentimiento
     df_filtered = df_filtered.sort_values(by='sentimiento_etiqueta', ascending=False)
@@ -85,7 +87,7 @@ def recommend_restaurants(df_restaurante, highdf, category=None, trend=None, loc
     # Realizamos un seguimiento de los restaurantes recomendados
     recommended_restaurants = set()
 
-    # Almacenamos las recomendaciones finales
+    # Almacenamos las recomendaciones
     recommendations_list = []
 
     # Iteramos sobre el df filtrado
@@ -97,18 +99,11 @@ def recommend_restaurants(df_restaurante, highdf, category=None, trend=None, loc
             # Agregamos el restaurante al conjunto de recomendados
             recommended_restaurants.add(restaurant_id)
 
-            # Buscamos el  highlight usando gmap_id
+            # Buscamos el highlight usando gmap_id
             highlight_row = highdf.loc[highdf['gmap_id'] == restaurant_id]
 
-            # lista para almacenar los aspectos destacados
-            highlights_list = []
-
-            # Iteramos sobre las columnas del df highdf
-            for column in highdf.columns[1:]:  # Excluimos la primera columna ('gmap_id')
-                # Verificamos si el valor en la fila correspondiente es 1
-                if highlight_row[column].values == 1:
-                    # Agregamos el nombre de la columna a la lista de aspectos destacados
-                    highlights_list.append(column)
+            # Lista para almacenar los aspectos destacados
+            highlights_list = [column for column in highdf.columns[1:] if highlight_row[column].values == 1]
 
             # Agregamos la fila del restaurante a la lista de recomendaciones
             row_data = row[['name', 'avg_rating', 'address2', 'city', 'ubicacion']].tolist()
@@ -121,6 +116,10 @@ def recommend_restaurants(df_restaurante, highdf, category=None, trend=None, loc
 
     # Creamos un df a partir de la lista de recomendaciones
     result = pd.DataFrame(recommendations_list, columns=['name', 'avg_rating', 'address2', 'city', 'ubicacion', 'highlights'])
+
+    # Verificamos si hay al menos una recomendación
+    if result.empty:
+        return "No hay recomendaciones para los datos ingresados, por favor verifique e intente nuevamente."
     
     return result
 
@@ -169,10 +168,11 @@ def recommend_restaurants_for_user(user_id, user_resto_matrix, user_similarity_d
 
     # Eliminamos duplicados y luego imprimimos las recomendaciones excluyendo la columna 'gmap_id'
     unique_filtered_df = filtered_df[['name', 'address']].drop_duplicates()
-    print("Recomendaciones:")
-    print(unique_filtered_df.reset_index(drop=True))
-
-    return top_recommendations, filtered_df
+    #print("Recomendaciones:")
+    #print(unique_filtered_df.reset_index(drop=True))
+    final=unique_filtered_df.reset_index(drop=True)
+    #return top_recommendations, filtered_df
+    return final
 
 #################
 
@@ -273,7 +273,15 @@ def recommend_atributo():
 def recommend_foodie():
 # Crear un menú desplegable con la lista de películas para el sistema de recomendación
     influencer_referencia = st.selectbox('Seleccion un influencer de referencia', df_restaurante['user_id'].unique())  
-    
+    # Botón para generar recomendaciones
+    if st.button("Generar Recomendaciones"):
+            
+        if  influencer_referencia:
+            # Corregir el cálculo de recomendaciones
+            recommendations_1 = recommend_restaurants_for_user(influencer_referencia, user_resto_matrix, user_similarity_df, df_resto_user)
+            # Mostrar la tabla
+            st.table(recommendations_1)
+            
 # Contenido principal
 if sidebar_option == "Inicio":
 
