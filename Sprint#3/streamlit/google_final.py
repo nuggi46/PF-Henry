@@ -1,22 +1,27 @@
-import os
+
 import pandas as pd
 import streamlit as st
 from sklearn.metrics.pairwise import cosine_similarity
-import base64
-import pyarrow.parquet as pq 
-from streamlit import radio, sidebar, markdown, title, image, checkbox, selectbox, container, columns, multiselect, button, table, image
+#import pyarrow.parquet as pq 
+#from streamlit import radio, sidebar, markdown, title, image, checkbox, selectbox, container, columns, multiselect, button, table, image
 
 
-
+@st.cache_data
+def get_restaurante(fn):
+    return pd.read_parquet(ruta1)
 ruta1 = "https://storage.googleapis.com/yelp-and-maps-data-processed/df_resto_user_final.parquet"
-df_restaurante = pd.read_parquet(ruta1)
+df_restaurante = get_restaurante(ruta1)
+
 
 df_florida = df_restaurante[df_restaurante['ubicacion'] == 'Florida']
 df_pennsylvania = df_restaurante[df_restaurante['ubicacion'] == 'Pennsylvania']
+df_user=df_restaurante['user_id'].unique()
+df_user2=df_user[:20]
 
-
+def get_user(fn2):
+    return pd.read_parquet(ruta2)
 ruta2 = "https://storage.googleapis.com/yelp-and-maps-data-processed/highRest_dummies.parquet"
-highdf = pd.read_parquet(ruta2)
+highdf = get_user(ruta2)
 
 # Sidebar con opciones
 st.sidebar.image("https://github.com/mreliflores/PF-Henry/blob/main/Sprint%233/streamlit/innovaLogo.jpeg?raw=true", width=300)
@@ -38,7 +43,7 @@ st.markdown("""
 
 ### Matriz
 # Tomamos las primeras 50000 filas
-df_sample = df_restaurante.head(20000)
+df_sample = df_restaurante.head(1000)
 
 # Creamos la matriz de usuario-restaurante utilizando pivot_table
 user_resto_matrix = df_sample.pivot_table(index='user_id', columns='gmap_id', values='sentimiento_etiqueta', fill_value=0)
@@ -116,7 +121,7 @@ def recommend_restaurants(df_restaurante, highdf, category=None, trend=None, loc
 
 ################# Codigo modelo recomendación Parte 2 - recomienda en base a usuarios
 
-def recommend_restaurants_for_user(user_id, user_resto_matrix, user_similarity_df, df_resto_user, top_n=3):
+def recommend_restaurants_for_user(user_id, user_resto_matrix, user_similarity_df, df_restaurante, top_n=3):
     """
     Genera recomendaciones de restaurantes para un usuario específico basado en la similitud de coseno.
 
@@ -263,7 +268,7 @@ def recommend_atributo():
 #sección recomendación influencer
 def recommend_foodie():
 # Crear un menú desplegable con la lista de películas para el sistema de recomendación
-    influencer_referencia = st.selectbox('Seleccion un influencer de referencia', df_restaurante['user_id'].unique())  
+    influencer_referencia = st.selectbox('Seleccion un influencer de referencia', df_user2)  
     # Botón para generar recomendaciones
     if st.button("Generar Recomendaciones"):
             
@@ -272,7 +277,21 @@ def recommend_foodie():
             recommendations_1 = recommend_restaurants_for_user(influencer_referencia, user_resto_matrix, user_similarity_df, df_restaurante)
             # Mostrar la tabla
             st.table(recommendations_1)
-            
+
+######################################### Esto lo hizo Elí ################
+def dashboard():
+    
+    st.title("Espacio para empresas")
+
+    toBusiness = '<p style="font-family:Source Sans Pro; color:Black; font-size: 16px;">Aquí podrás ver la análitica de la empresa y satisfacción de tus consumidores.</p>'
+    st.markdown(toBusiness, unsafe_allow_html=True)
+
+    new_title = '<iframe title="Report Section" width="800" height="480" src="https://app.powerbi.com/view?r=eyJrIjoiN2M0M2Q4MGQtNjAwNi00ODFhLTk4MzMtMDU0Y2FlMjQ5ZDcxIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" frameborder="0" allowFullScreen="true"></iframe>'
+    st.markdown(new_title, unsafe_allow_html=True)
+    pass
+
+######################################### Esto lo hizo Elí ################
+
 # Contenido principal
 if sidebar_option == "Inicio":
 
@@ -306,3 +325,8 @@ elif sidebar_option == "Decido yo":
 
 elif sidebar_option == "Decide el mejor":
     recommend_foodie()   
+
+######################################### Esto lo hizo Elí ################
+elif sidebar_option == "Dashboard":
+    dashboard() 
+######################################### Esto lo hizo Elí ################
