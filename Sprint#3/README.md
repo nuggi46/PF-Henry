@@ -29,10 +29,12 @@ En el primer modelo, usuario puede elegir entre 1 a 4 inputs:
 
 Este modelo se encuentra basado previamente en un análisis de sentimientos de los usuarios de google reviews y en base a ello se genera el modelo.
 
+![modelo_1](https://github.com/mreliflores/PF-Henry/blob/main/Sprint%233/streamlit/modelo_1.png?raw=true)
+
 #### Modelo 2
 
 El segundo modelo parte de la selección del usuario de mayor preferencia y automáticamente recomienda los restaurantes basados en su experiencia personal y usuarios similares. El mismo se encuentra basado en el metodo de coseno similud.
 
-
+![modelo_2](https://github.com/mreliflores/PF-Henry/blob/main/Sprint%233/streamlit/modelo_2.png?raw=true)
 
 ## Analytics
